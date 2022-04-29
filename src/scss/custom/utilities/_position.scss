@@ -1,0 +1,40 @@
+.v-top {vertical-align:top !important;}
+.v-middle {vertical-align:middle !important;}
+.v-bottom {vertical-align:bottom !important;}
+
+.pos-a-lt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+.pos-a-rt {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.pos-a-rb {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+}
+.pos-a-t {
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 5;
+}
+
+.v-box {
+    display: table;
+    height: 100%;
+    .v-middle {
+        display: table-cell;
+        height: 100%;
+        vertical-align: middle !important;
+    }
+}

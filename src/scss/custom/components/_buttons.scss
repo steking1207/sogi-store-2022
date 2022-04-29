@@ -1,0 +1,52 @@
+.btn-block {
+    &.btn-fb,
+    &.btn-google,
+    &.btn-line {
+        width: 100%;
+        height: 52px;
+        line-height: 50px;
+        .float-left {
+            width: 50px;
+            height: 50px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+    &.btn-fb {
+        color: #fff;
+        background-color: #3a589a;
+//        .pull-xs-left {
+//            background-color: #2f4779;
+//        }
+        &:hover {
+            background-color: #2f4779 !important;
+        }
+    }
+    &.btn-google {
+        color: #fff;
+        background-color: #dd4b39;
+        &:hover {
+            background-color: #c54232;
+        }
+    }
+    &.btn-line {
+        color: #fff;
+        background-color: #00c43e;
+        &:hover {
+            background-color: darken(#00c43e,5%);
+        }
+    }
+}
+
+.bootstrap-touchspin {
+    .btn-outline {
+        background-color: $white;
+        border: 1px solid $gray-400;
+    }
+    .btn-up {
+        border-left: 0;
+    }
+    .btn-down {
+        border-right: 0;
+    }
+}

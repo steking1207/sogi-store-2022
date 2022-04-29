@@ -1,0 +1,24 @@
+@@if(context.title){
+<div class="mb-8">
+    <div class="title mb-2 text-center text-black">
+        <h2><div class="h5 font-weight-bold title-line"><span>@@title</span></div></h2>
+        @@if(context.subtitle){
+        <div class="h6">@@subtitle</div>
+        }
+    </div>
+}
+    <div class="row @@if(context.slider===true){slider-items-@@sliderItem}">
+        @@if(context.sliderItem=='2'){
+            @@for (var i = 0; i < group.item.length; i++) {
+                @@include('../unit/_item-2.html', `+(JSON.stringify(group.item[i]))+`)
+            }
+        }
+        @@if(context.sliderItem=='6'){
+            @@for (var i = 0; i < group.item.length; i++) {
+                @@include('../unit/_item-6.html', `+(JSON.stringify(group.item[i]))+`)
+            }
+        }
+    </div>
+@@if(context.title){
+</div>
+}

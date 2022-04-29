@@ -1,0 +1,13 @@
+.bg-gradient-dark {
+    background-image: linear-gradient( 0deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+}
+.bg-login {
+    background:url(#{$path-ui}/bg-login.jpg) no-repeat;
+    background-size: cover;
+}
+.bg-gray-3 {
+    background-color: $gray-300;
+}
+.bg-gray-6 {
+    background-color: $gray-600;
+}

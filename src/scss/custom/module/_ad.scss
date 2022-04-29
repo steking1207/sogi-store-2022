@@ -1,0 +1,14 @@
+.slider-kv {
+    background: url(#{$path-ui}ajax-loader.gif) center center no-repeat;
+    .slider-item {
+        display: none;
+        overflow: hidden;
+    }
+}
+.slick-initialized {
+    .slider-kv {
+        .slider-item {
+            display: block;
+        }
+    }
+}
