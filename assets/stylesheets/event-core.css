@@ -1,0 +1,11 @@
+.container, .container-fluid {
+  background-size: cover; }
+
+.badge {
+  display: inline-block !important;
+  max-width: 100%;
+  min-height: 1.1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left; }
