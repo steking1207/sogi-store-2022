@@ -397,6 +397,7 @@ select {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); }
 
 .ratio-4x3 {
+  width: 100%;
   aspect-ratio: 4 / 3; }
 
 .list-inline .list-inline-item {
