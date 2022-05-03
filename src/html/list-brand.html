@@ -16,13 +16,17 @@
 
             <!-- Tab -->
             <div class="mb-8">
-                @@include('../partial/comp/_list-tab.html')
+                @@include('../partial/comp/_tabs.html',{
+                    tab1Label:'熱銷主打',
+                    tab2Label:'限時優惠',
+                    tab3Label:'最速配件',
+                })
             </div>
 
             @@include('../partial/comp/_item-list.html',{
                 title:'熱門商品',
                 slider:true,
-                sliderItem:'2',
+                sliderItem:'grid',
                 group: {
                     item: [
                     {
@@ -30,7 +34,7 @@
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_360x270.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_640x480.jpg',
                         desc:'SAMSUNG Galaxy A8+ (2018) 配備 6 吋 FHD+ 螢幕，採用 18.5：9 螢幕比例，如同觀賞電影般放大視野享受，還提供 Always On',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'15,000',
                     },
                     {
@@ -38,7 +42,7 @@
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_reno7_z_5g_0414061514183_360x270.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_reno7_z_5g_0414061514183_640x480.jpg',
                         desc:'SAMSUNG Galaxy A8+ (2018) 配備 6 吋 FHD+ 螢幕，採用 18.5：9 螢幕比例，如同觀賞電影般放大視野享受，還提供 Always On',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'9,600',
                     },
                     {
@@ -46,7 +50,7 @@
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_a33_5g_0421064321480_360x270.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_a33_5g_0421064321480_640x480.jpg',
                         desc:'SAMSUNG Galaxy A8+ (2018) 配備 6 吋 FHD+ 螢幕，採用 18.5：9 螢幕比例，如同觀賞電影般放大視野享受，還提供 Always On',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'9,600',
                     },
                     ],
@@ -55,40 +59,46 @@
             @@include('../partial/comp/_item-list.html',{
                 title:'周邊配件',
                 slider:true,
-                sliderItem:'6',
+                sliderItem:'col',
                 group: {
                     item: [
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'hoda 非滿版鋼化玻璃保護貼 (0.33mm)',
                         img:'assets/images/uploads/prod-acc1.jpg',
                         img2x:'assets/images/uploads/prod-acc1@2x.jpg',
                         price:'590',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'USB線',
                         img:'assets/images/uploads/prod-acc2.jpg',
                         img2x:'assets/images/uploads/prod-acc2@2x.jpg',
                         price:'199',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'hoda 非滿版鋼化玻璃保護貼 (0.33mm)',
                         img:'assets/images/uploads/prod-acc1.jpg',
                         img2x:'assets/images/uploads/prod-acc1@2x.jpg',
                         price:'590',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'USB線',
                         img:'assets/images/uploads/prod-acc2.jpg',
                         img2x:'assets/images/uploads/prod-acc2@2x.jpg',
                         price:'199',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'hoda 非滿版鋼化玻璃保護貼 (0.33mm)',
                         img:'assets/images/uploads/prod-acc1.jpg',
                         img2x:'assets/images/uploads/prod-acc1@2x.jpg',
                         price:'590',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'USB線',
                         img:'assets/images/uploads/prod-acc2.jpg',
                         img2x:'assets/images/uploads/prod-acc2@2x.jpg',
@@ -100,49 +110,55 @@
             @@include('../partial/comp/_item-list.html',{
                 title:'商品列表',
                 slider:true,
-                sliderItem:'6',
+                sliderItem:'col',
                 group: {
                     item: [
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'SAMSUNG Galaxy M53 5G',
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_160x120.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_360x270.jpg',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'15,000',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'OPPO Find X5 Pro',
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_find_x5_pro_0422083622544_160x120.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_find_x5_pro_0422083622544_360x270.jpg',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'23,000',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'SAMSUNG Galaxy M53 5G',
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_160x120.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_360x270.jpg',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'15,000',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'OPPO Find X5 Pro',
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_find_x5_pro_0422083622544_160x120.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_find_x5_pro_0422083622544_360x270.jpg',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'23,000',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'SAMSUNG Galaxy M53 5G',
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_160x120.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_360x270.jpg',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'15,000',
                     },
                     {
+                        col:'6', colMd:'3', colLg:'2',
                         title:'OPPO Find X5 Pro',
                         img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_find_x5_pro_0422083622544_160x120.jpg',
                         img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_find_x5_pro_0422083622544_360x270.jpg',
-                        badge1Label:'中華', badge2Label:'遠傳',
+                        tag1Label:'中華', tag2Label:'遠傳',
                         priceLabel:'最低專案價', price:'23,000',
                     },
                     ],

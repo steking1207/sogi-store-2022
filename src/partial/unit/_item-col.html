@@ -1,0 +1,39 @@
+<div class="col-@@col @@if(context.colMd){col-md-@@colMd} @@if(context.colLg){col-lg-@@colLg} my-2 item">
+    @@if(context.box===true){
+    <div class="box bg-white p-2">
+    }
+    <figure class="figure d-block text-center m-0">
+        @@if(context.badgeLabel){
+        <span class="badge badge-new">@@badgeLabel</span>
+        }
+        <a href="product-detail.html">
+            <img class="img-fluid mb-2" src="@@img" @@if(context.img2x){srcset="@@img2x 2x"} alt="@@title">
+        </a>
+    </figure>
+    @@if(context.tipLabel){
+    <span class="d-block text-truncate badge badge-danger">@@tipLabel</span>
+    }
+    <a class="text-black text-row-2" href="product-detail.html">
+        @@title
+    </a>
+    @@if(context.box!==true){
+    <div class="telecom my-1">
+        @@if(context.tag1Label){
+        <span class="badge badge-cht">@@tag1Label</span>
+        <span class="badge badge-fetnet">@@tag2Label</span>
+        }
+    </div>
+    }
+    <div class="my-1">
+        <a href="product-detail.html">
+            @@if(context.priceLabel){
+            <span class="text-black font-small">@@priceLabel</span>
+            }
+            <span class="text-danger font-weight-bold">$@@price</span>
+        </a>
+    </div>
+    <a class="btn btn-outline-primary btn-block" href="product-detail.html">立即了解</a>
+    @@if(context.box===true){
+    </div>
+    }
+</div>

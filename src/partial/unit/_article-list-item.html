@@ -1,0 +1,20 @@
+<div class="col-@@col col-md-@@colMd my-2">
+    <a class="card bg-dark text-white border-0" href="#">
+        <img class="card-img" src="@@img" @@if(context.img2x){srcset="@@img2x 2x"} alt="@@title">
+        <div class="card-img-overlay d-flex p-0">
+            <div class="align-self-end p-2 pt-4 bg-gradient-dark w-100">
+                @@if(context.row2Title){
+                    <div class="text-row-2">@@row2Title</div>
+                }
+                @@if(context.row1Title){
+                    <div class="h5 card-title">
+                        @@row1Title
+                    </div>
+                    <p class="card-text text-row-2">
+                        @@desc
+                    </p>
+                }
+            </div>
+        </div>
+    </a>
+</div>

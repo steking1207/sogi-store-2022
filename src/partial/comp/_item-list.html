@@ -7,15 +7,15 @@
         }
     </div>
 }
-    <div class="row @@if(context.slider===true){slider-items-@@sliderItem}">
-        @@if(context.sliderItem=='2'){
+    <div class="row @@if(context.slider===true){slider-items-@@sliderItem} @@if(context.noGutters===true){no-gutters}">
+        @@if(context.sliderItem=='grid'){
             @@for (var i = 0; i < group.item.length; i++) {
-                @@include('../unit/_item-2.html', `+(JSON.stringify(group.item[i]))+`)
+                @@include('../unit/_item-grid.html', `+(JSON.stringify(group.item[i]))+`)
             }
         }
-        @@if(context.sliderItem=='6'){
+        @@if(context.sliderItem=='col'){
             @@for (var i = 0; i < group.item.length; i++) {
-                @@include('../unit/_item-6.html', `+(JSON.stringify(group.item[i]))+`)
+                @@include('../unit/_item-col.html', `+(JSON.stringify(group.item[i]))+`)
             }
         }
     </div>
