@@ -400,6 +400,10 @@ select {
   width: 100%;
   aspect-ratio: 4 / 3; }
 
+.ratio-16x9 {
+  width: 100%;
+  aspect-ratio: 16 / 9; }
+
 .list-inline .list-inline-item {
   padding-left: .8rem;
   border-left: 1px solid #ced4da;
