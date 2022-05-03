@@ -1,32 +1,36 @@
 @@include('../../../partial/global/_head.html',{
+    rootUrl:'../../',
     title:'活動專區',
     extendCss:'event/tmpl/event.css',
 })
 
 <body id="top">
     @@include('../../../partial/global/_nav-mobile.html')
-    @@include('../../../partial/global/_header.html')
+    @@include('../../../partial/global/_header.html',{
+        rootUrl:'../../',
+    })
 
     <!-- Event區塊 -->
     <div class="push" id="event">
         <div id="kv" class="container-fluid py-10" style="background:url(/assets/images/event/tmpl/bg-kv.png) center 0 no-repeat #18191e">
             <div class="container">
-                <a class="d-block text-center" href="">
-                    <img class="img-fluid" src="/assets/images/event/tmpl/kv.png" alt="">
+                <a class="d-block text-center" href="#">
+                    <!-- <img class="img-fluid" src="../../assets/images/event/tmpl/kv.png" alt=""> -->
+                    <img class="img-fluid ratio-16x9" src="https://via.placeholder.com/1920x1080" alt="">
                 </a>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
-                        <a href="">
+                        <a href="#">
                         <!-- PC Show -->
                         <div class="d-none d-md-block">
 
-                            <img class="img-fluid" src="/assets/images/event/tmpl/slogan-desktop.png" alt="">
+                            <img class="img-fluid" src="../../assets/images/event/tmpl/slogan-desktop.png" alt="">
                         </div>
                         <!-- MB Show -->
                         <div class="d-md-none">
-                            <img class="img-fluid" src="/assets/images/event/tmpl/slogan-mobile.png" alt="">
+                            <img class="img-fluid" src="../../assets/images/event/tmpl/slogan-mobile.png" alt="">
                         </div>
                         </a>
                     </div>
@@ -35,13 +39,13 @@
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-sm-12 col-md-6">
-                        <a href="">
-                            <img class="img-fluid" src="/assets/images/event/tmpl/slogan1.png" alt="">
+                        <a href="#">
+                            <img class="img-fluid" src="../../assets/images/event/tmpl/slogan1.png" alt="">
                         </a>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <a href="">
-                            <img class="img-fluid" src="/assets/images/event/tmpl/slogan2.png" alt="">
+                        <a href="#">
+                            <img class="img-fluid" src="../../assets/images/event/tmpl/slogan2.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -63,16 +67,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -84,16 +88,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger text-truncate">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -105,16 +109,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -126,16 +130,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -163,16 +167,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -184,16 +188,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger text-truncate">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -205,16 +209,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -226,16 +230,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -262,16 +266,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">一二三四五六七八九十</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -283,16 +287,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger text-truncate">一二三四五六七八九十一二三四五</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -304,16 +308,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge"></span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -325,16 +329,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">一二三四五</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -346,16 +350,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -379,8 +383,8 @@
             <div class="container section-promo">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <a class="d-block my-2" href="" target="_blank">
-                            <img class="img-fluid" src="/assets/images/event/tmpl/pic1.jpg" alt="">
+                        <a class="d-block my-2" href="#" target="_blank">
+                            <img class="img-fluid" src="../../assets/images/event/tmpl/pic1.jpg" alt="">
                         </a>
                     </div>
                     <div class="col-sm-12 col-md-6">
@@ -389,16 +393,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -410,16 +414,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -445,25 +449,25 @@
             <div class="container section-headlines">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <a class="d-block my-2" href="" target="_blank">
-                            <img class="img-fluid" src="/assets/images/event/tmpl/pic1.jpg" alt="">
+                        <a class="d-block my-2" href="#" target="_blank">
+                            <img class="img-fluid" src="../../assets/images/event/tmpl/pic1.jpg" alt="">
                         </a>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="row">
                             <div class="col-12 my-2">
                                 <div class="h4">
-                                    <a class="text-black" href="">紐西蘭Blue70－核心浮力褲</a>
+                                    <a class="text-black" href="#">紐西蘭Blue70－核心浮力褲</a>
                                 </div>
                                 <p>新式自動充氣睡墊，打開自動充氣嘴約2~3分鐘即可充氣完畢，省時省力。<br>
                                     側邊組合式鈕扣設計，可無限擴充，單人睡墊快速變身大通鋪睡墊<br>
                                 方便露營野餐、兒童爬行遊玩、居家臨時加床使用。</p>
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid" src="/assets/images/event/tmpl/pic1.jpg">
+                                <img class="img-fluid" src="../../assets/images/event/tmpl/pic1.jpg">
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid" src="/assets/images/event/tmpl/pic1.jpg">
+                                <img class="img-fluid" src="../../assets/images/event/tmpl/pic1.jpg">
                             </div>
                         </div>
                     </div>
@@ -491,16 +495,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -512,16 +516,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -557,16 +561,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -578,16 +582,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -633,16 +637,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge badge-danger">刷Yahoo聯名卡最高再回饋6%刷Yahoo聯名卡最高再回饋6%</span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
@@ -654,16 +658,16 @@
                                 <div class="box bg-white p-2">
                                 <figure class="figure d-block text-center m-0">
                                     <span class="badge badge-new">新品</span>
-                                    <a href="">
-                                        <img class="img-fluid mb-2" src="/assets/images/uploads/prod1_360x270.jpg" alt="">
+                                    <a href="#">
+                                        <img class="img-fluid mb-2" src="../../assets/images/uploads/prod1_360x270.jpg" alt="">
                                     </a>
                                 </figure>
                                 <span class="badge"></span>
-                                <a class="text-black text-row-2" href="">
+                                <a class="text-black text-row-2" href="#">
                                     小米 紅米5
                                 </a>
                                 <div class="my-1">
-                                    <a href="">
+                                    <a href="#">
                                         <span class="text-black font-small">最低專案價</span>
                                         <span class="text-danger font-weight-bold">$15,000</span>
                                     </a>
