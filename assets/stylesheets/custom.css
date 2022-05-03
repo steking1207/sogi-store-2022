@@ -396,6 +396,9 @@ select {
 .shadow {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); }
 
+.mw-100p {
+  max-width: 100%; }
+
 .ratio-4x3 {
   width: 100%;
   aspect-ratio: 4 / 3; }
