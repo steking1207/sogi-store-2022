@@ -1,0 +1,17 @@
+<div class="section-step" id="section-project">
+    <div class="container mb-8">
+        @@include('unit/_step-title.html',{
+            step:'@@step',
+            title:'@@title'
+        })
+        <div class="row slider-items-4">
+            @@loop('unit/_step-project-item.html', [
+                {chkNumber:'21', price1:'699', price2:'27,500', tips:'約期：30個月　預繳：4,500'},
+                {chkNumber:'22', price1:'199', price2:'12,500', tips:'約期：12個月　預繳：4,000'},
+                {chkNumber:'23', price1:'1099', price2:'32,000', tips:'約期：24個月　預繳：9,999'},
+                {chkNumber:'24', price1:'399', price2:'18,900', tips:'約期：24個月　預繳：3,000'},
+                {chkNumber:'25', price1:'899', price2:'9,500', tips:'約期：24個月　預繳：2,999'},
+            ])
+        </div>
+    </div>
+</div>

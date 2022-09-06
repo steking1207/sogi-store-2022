@@ -1,0 +1,65 @@
+<div>
+    <div class="container mb-8">
+        @@include('unit/_content-title.html',{
+            title:'@@title'
+        })
+        <div class="pt-2">
+            <div class="row justify-content-between align-items-center">
+                <div class="col">
+                    <a class="btn btn-sm btn-outline-primary" href="" data-toggle="modal" data-target="#modal-login">給予評價</a>
+                </div>
+                <div class="col">
+                    <div class="font-small text-right">1 - 5 則評論，共 305 則</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <hr class="my-2">
+                </div>
+                @@loop('unit/_content-review-item.html', [
+                    {
+                        img:'assets/images/uploads/avatar-sm.jpg', img2x:'assets/images/uploads/avatar-sm@2x.jpg',
+                        id:'superid',
+                        title:'適合開車的旅客',
+                        date:'2022/1/5',
+                        desc:'在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供',
+                        good:'10', bad:'5',
+                    },
+                    {
+                        img:'https://via.placeholder.com/150',
+                        id:'開車客',
+                        title:'在agoda訂房有註明',
+                        date:'2022/1/5',
+                        desc:'在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供',
+                        good:'10', bad:'5',
+                    },
+                    {
+                        img:'https://via.placeholder.com/150/fc0',
+                        id:'訂房開車客',
+                        title:'在agoda訂房有註明',
+                        date:'2022/4/5',
+                        desc:'在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備',
+                        good:'100', bad:'50',
+                    },
+                    {
+                        img:'https://via.placeholder.com/150/cf0',
+                        id:'開車客',
+                        title:'在agoda訂房有註明',
+                        date:'2022/1/5',
+                        desc:'在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供',
+                        good:'10', bad:'5',
+                    },
+                    {
+                        img:'https://via.placeholder.com/150/0fc',
+                        id:'訂房開車客',
+                        title:'在agoda訂房有註明',
+                        date:'2022/4/5',
+                        desc:'在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備，整體來說是值得入住的飯店在agoda訂房有註明有2歲小孩，飯店有提供嬰兒床，但要主動詢問才會幫忙準備',
+                        good:'100', bad:'50',
+                    },
+                ])
+            </div>
+            @@include('../../comp/_pagination.html')
+        </div>
+    </div>
+</div>

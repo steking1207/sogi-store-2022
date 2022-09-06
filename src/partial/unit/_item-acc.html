@@ -1,0 +1,23 @@
+<div class="col py-2 item add-@@no">
+    <figure class="figure d-block text-center m-0">
+        <a href="product-detail.html">
+            <img class="img-fluid mb-2" src="@@img" @@if(context.img2x){srcset="@@img2x 2x"} alt="@@title">
+        </a>
+    </figure>
+    <div class="text-black text-row-2">
+        @@title
+    </div>
+    <div class="my-1 d-flex justify-content-between">
+        <del>$@@priceOrg</del>
+        <span class="text-danger font-weight-bold">$@@price</span>
+    </div>
+    <div class="form-group mb-1">
+        <select class="custom-select">
+            <option>請選擇款式</option>
+        </select>
+    </div>
+    <div class="form-group mb-1">
+        <input id="" type="text" value="1" class="form-control text-center input-number">
+    </div>
+    <a class="btn btn-block btn-outline-primary btn-add" id="add-@@no" href="javascript:void();">加入</a>
+</div>

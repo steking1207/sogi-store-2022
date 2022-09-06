@@ -1,0 +1,71 @@
+<script src="assets/javascripts/vendor/jquery.validate.min.js"></script>
+<script src="assets/javascripts/vendor/bootstrap.ekko-lightbox.min.js"></script>
+<script src="assets/javascripts/function/lightbox.js"></script>
+<script>
+    var section1 = $('#section-primary');
+    var section2 = $('#section-project');
+    var section3 = $('#section-prepay');
+    var section4 = $('#section-acc');
+    var section5 = $('#section-checkout');
+
+    jQuery.validator.setDefaults({
+        debug: true,
+        success: "valid"
+    });
+
+    $(function() {
+        $('#form-style').validate({
+            messages:{
+                radioColors:{
+                    required:""
+                },
+                radioTypes:{
+                    required:""
+                },
+                radioTelecoms:{
+                    required:""
+                }
+            },
+            submitHandler:function(form){
+                section2.addClass("section-active").fadeIn();
+                $('html, body').animate({scrollTop: section2.offset().top-100},1500);
+            },
+            errorLabelContainer: $(".error")
+        });
+    });
+
+    $('#form-style input[type=radio]').on('click', function() {
+        $(this).closest("form").submit();
+//            section2.addClass("section-active").fadeIn();
+//            $('html, body').animate({scrollTop: section2.offset().top-100});
+    });
+    $('#section-project input:checkbox').click(function() {
+        if($(this).is(":checked")) {
+            section3.addClass("section-active").fadeIn();
+            $('html, body').animate({scrollTop: section3.offset().top-100},1500);
+        } else {
+            section3.fadeOut();
+        }
+    });
+    $('#section-prepay input:checkbox').click(function() {
+        if($(this).is(":checked")) {
+            section4.addClass("section-active").fadeIn();
+            section5.addClass("section-active").fadeIn();
+            $('html, body').animate({scrollTop: section4.offset().top-100},1500);
+        } else {
+            section4.fadeOut();
+            section5.fadeOut();
+        }
+    });
+
+    $('.btn-add').click(function (e) {
+        var id = ($(this).attr("id"));
+        $('.slider-items-6').find('.item').each(function(){
+            if($(this).hasClass(id)) {
+                $(this).toggleClass('border border-primary');
+            }
+        });
+        $(this).html( $(this).html() == '加入' ? '取消' :'加入' );
+    });
+
+</script>

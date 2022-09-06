@@ -1,15 +1,11 @@
-@@include('../partial/global/_head.html',{title:'Apple 搜尋結果'})
-
-<body id="top">
-
-    @@include('../partial/global/_nav-mobile.html')
-    @@include('../partial/global/_header.html')
-
-    <div id="main" class="push py-10">
-        <div class="container">
-            @@include('../partial/comp/_item-list.html',{
-                title:'搜尋結果',
-                subtitle:'Apple',
+<div>
+    <div class="container mb-8">
+        @@include('unit/_content-title.html',{
+            title:'@@title'
+        })
+        <div class="pt-2">
+            @@include('../../comp/_item-list.html',{
+                slider:true,
                 sliderItem:'col',
                 sliderItemNo:'6',
                 group: {
@@ -22,18 +18,10 @@
                         priceLabel:'最低專案價', price:'15,000',
                     },
                     {
-                        title:'OPPO Find X5 Pro',
-                        img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_find_x5_pro_0422083622544_160x120.jpg',
-                        img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/OPPO_oppo_find_x5_pro_0422083622544_360x270.jpg',
-                        tag1Label:'中華', tag2Label:'遠傳',
-                        priceLabel:'最低專案價', price:'23,000',
-                    },
-                    {
-                        title:'SAMSUNG Galaxy M53 5G',
-                        img:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_160x120.jpg',
-                        img2x:'//d2lfcsub12kx0l.cloudfront.net/tw/product/img/SAMSUNG_samsung_galaxy_m53_5g_0425034325294_360x270.jpg',
-                        tag1Label:'中華', tag2Label:'遠傳',
-                        priceLabel:'最低專案價', price:'15,000',
+                        title:'hoda 非滿版鋼化玻璃保護貼 (0.33mm)',
+                        img:'assets/images/uploads/prod-acc2.jpg',
+                        img2x:'assets/images/uploads/prod-acc2@2x.jpg',
+                        price:'1,000',
                     },
                     {
                         title:'OPPO Find X5 Pro',
@@ -73,13 +61,6 @@
                     ],
                 },
             })
-            @@include('../partial/comp/_pagination.html')
         </div>
     </div>
-
-    @@include('../partial/global/_footer.html')
-    @@include('../partial/global/_js.html')
-
-</body>
-</html>
-
+</div>

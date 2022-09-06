@@ -1,0 +1,20 @@
+<div class="col-lg-1 col-2 text-center">
+    <img class="img-fluid rounded-circle" src="@@img" @@if(context.img2x){srcset="@@img2x 2x"} alt="@@id">
+    <div class="font-small">@@id</div>
+</div>
+<div class="col-lg-11 col-10">
+    <div class="text-black">
+        @@title
+    </div>
+    <div class="font-small text-gray-6">@@date</div>
+    <div class="font-small readmore-review">
+        @@desc
+    </div>
+    <div class="float-right my-1 font-small">
+        <span class="text-success"><i class="fas fa-thumbs-up"></i>@@good</span>
+        <span class="text-danger ml-2"><i class="fas fa-thumbs-down"></i>@@bad</span>
+    </div>
+</div>
+<div class="col-12">
+    <hr class="my-2">
+</div>

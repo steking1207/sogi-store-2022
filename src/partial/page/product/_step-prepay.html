@@ -1,0 +1,14 @@
+<div class="section-step" id="section-prepay">
+    <div class="container mb-8">
+        @@include('unit/_step-title.html',{
+            step:'@@step',
+            title:'@@title'
+        })
+        <div class="row">
+            @@loop('unit/_step-prepay-item.html', [
+                {chkNumber:'31', label:'預繳：12,000', tips:'可抵月租費'},
+                {chkNumber:'32', label:'免預繳', tips:'需檢附同號碼<br>三個月內帳單'},
+            ])
+        </div>
+    </div>
+</div>
