@@ -123,10 +123,10 @@ select {
 
 .nav-search .nav-link {
   padding: 1rem;
-  color: #F8CD46;
-  border: 1px solid #F8CD46; }
+  color: #ff7700;
+  border: 1px solid #ff7700; }
   .nav-search .nav-link:hover, .nav-search .nav-link.active {
-    background-color: #F8CD46;
+    background-color: #ff7700;
     color: #fff; }
 
 .nav-tabs .nav-item {
@@ -263,7 +263,7 @@ select {
     .chk:checked + label .box-price-month {
       background-color: #1a6795; }
     .chk:checked + label .box-price-total {
-      background-color: #F8CD46; }
+      background-color: #ff7700; }
     .chk:checked + label .btn {
       background-color: #1a6795;
       color: #fff; }
@@ -353,12 +353,12 @@ select {
 
 .title-pk .col-official {
   padding-right: 7rem;
-  background-color: #F8CD46;
+  background-color: #ff7700;
   text-align: right; }
   .title-pk .col-official:before {
     left: 0;
     border-width: 15px 15px 15px 0;
-    border-color: #fff #F8CD46 #fff #fff; }
+    border-color: #fff #ff7700 #fff #fff; }
 
 .title-pk .col-telecom {
   padding-left: 7rem;
@@ -379,6 +379,9 @@ select {
 
 .border-gray-6 {
   border-color: #6c757d !important; }
+
+.border-warning {
+  border-top-color: #F8CD46 !important; }
 
 .bg-gradient-dark {
   background-image: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 100%); }
