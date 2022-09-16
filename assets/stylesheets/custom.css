@@ -938,3 +938,141 @@ a.card:hover img {
   .slider-kv .slick-prev:before,
   .slider-kv .slick-next:before {
     color: #fff; }
+
+.editable {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.8;
+  word-wrap: break-word; }
+  .editable::after {
+    display: block;
+    clear: both;
+    content: ""; }
+  .editable address, .editable blockquote, .editable dd, .editable dl, .editable dt, .editable fieldset, .editable form, .editable frame, .editable frameset, .editable h1, .editable h2, .editable h3, .editable h4, .editable h5, .editable h6, .editable noframes, .editable ol, .editable p, .editable ul, .editable center, .editable dir, .editable hr, .editable menu, .editable pre {
+    display: block; }
+  .editable .title {
+    font-weight: bold; }
+  .editable li {
+    display: list-item; }
+  .editable head {
+    display: none; }
+  .editable table {
+    display: table; }
+  .editable tr {
+    display: table-row; }
+  .editable thead {
+    display: table-header-group; }
+  .editable tbody {
+    display: table-row-group; }
+  .editable tfoot {
+    display: table-footer-group; }
+  .editable col {
+    display: table-column; }
+  .editable colgroup {
+    display: table-column-group; }
+  .editable td, .editable th {
+    display: table-cell; }
+  .editable caption {
+    display: table-caption; }
+  .editable th {
+    font-weight: bolder;
+    text-align: center; }
+  .editable caption {
+    text-align: center; }
+  .editable body {
+    margin: 8px; }
+  .editable h1 {
+    font-size: 2em;
+    margin: .67em 0; }
+  .editable h2 {
+    font-size: 1.5em;
+    margin: .75em 0; }
+  .editable h3 {
+    font-size: 1.17em;
+    margin: .83em 0; }
+  .editable h4, .editable p, .editable blockquote, .editable ul, .editable fieldset, .editable form, .editable ol, .editable dl, .editable dir, .editable menu {
+    margin: 1.12em 0; }
+  .editable h5 {
+    font-size: .83em;
+    margin: 1.5em 0; }
+  .editable h6 {
+    font-size: .75em;
+    margin: 1.67em 0; }
+  .editable h1, .editable h2, .editable h3, .editable h4, .editable h5, .editable h6, .editable b, .editable strong {
+    font-weight: bolder; }
+  .editable blockquote {
+    margin-left: 40px;
+    margin-right: 40px; }
+  .editable i, .editable cite, .editable em, .editable var, .editable address {
+    font-style: italic; }
+  .editable pre, .editable tt, .editable code, .editable kbd, .editable samp {
+    font-family: monospace; }
+  .editable pre {
+    white-space: pre; }
+  .editable button, .editable textarea, .editable input, .editable select {
+    display: inline-block; }
+  .editable big {
+    font-size: 1.17em; }
+  .editable small, .editable sub, .editable sup {
+    font-size: .83em; }
+  .editable sub {
+    vertical-align: sub; }
+  .editable sup {
+    vertical-align: super; }
+  .editable table {
+    border-spacing: 2px; }
+  .editable thead, .editable tbody, .editable tfoot {
+    vertical-align: middle; }
+  .editable td, .editable th, .editable tr {
+    vertical-align: inherit; }
+  .editable s, .editable strike, .editable del {
+    text-decoration: line-through; }
+  .editable hr {
+    display: block;
+    clear: both;
+    margin: 1em 0;
+    padding: 0;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc; }
+  .editable ol, .editable ul, .editable dir, .editable menu, .editable dd {
+    margin-left: 40px; }
+  .editable ol {
+    list-style-type: decimal; }
+    .editable ol ul {
+      margin-top: 0;
+      margin-bottom: 0; }
+  .editable ul ol, .editable ul ul {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .editable ol ol {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .editable ul {
+    list-style-type: disc; }
+    .editable ul ul {
+      list-style-type: circle; }
+      .editable ul ul ul {
+        list-style-type: square; }
+  .editable u, .editable ins {
+    text-decoration: underline; }
+  .editable br:before {
+    content: "\A";
+    white-space: pre-line; }
+  .editable center {
+    text-align: center; }
+  .editable :link, .editable :visited {
+    text-decoration: underline; }
+  .editable :focus {
+    outline: thin dotted invert; }
+  .editable p {
+    margin: 15px 0; }
+    .editable p:first-child, .editable p:only-child {
+      margin-top: 0; }
+  .editable h3 {
+    font-size: 1.5rem;
+    color: #1a6795; }
+  .editable img {
+    max-width: 100%;
+    height: auto; }
